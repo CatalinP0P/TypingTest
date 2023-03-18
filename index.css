@@ -1,0 +1,58 @@
+.container
+{
+    margin-top: 500px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eaeaea;
+    position: relative;
+    padding: 1.5rem;
+}
+
+.wordsContainer
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.selected
+{
+    color : #a66fe2;
+}
+
+.wrong
+{
+    color : red;
+}
+
+.correct
+{
+    color: green;
+}
+
+#textBox
+{
+    width: 100%;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.wordsContainer > *
+{
+    margin : 5px;
+}
+
+#scoreLabel
+{
+    position:absolute;
+    top: -40px;
+    font-size: 25px;
+    right: 0;
+    word-spacing: 10px;
+}
+
+.tbWrong
+{
+    background-color: #e1b2b1;
+}
